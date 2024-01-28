@@ -1,0 +1,24 @@
+# .gitignore
+
+# Virtual Environment
+venv/
+env/
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# IDE specific files
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.idea/
+
+# Dependency directories
+__pycache__/
+dist/
+build/
+*.egg-info/
+
+# Ignore local development configuration
+/.env
