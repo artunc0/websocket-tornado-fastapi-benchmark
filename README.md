@@ -31,7 +31,7 @@ The high load test simulates a high load scenario by sending a large number of m
 
 The tests were conducted under the following environment:
 
-- **Data Type/Size Streamed**: The data streamed is a JSON object that includes the price and timestamp. The size of this data in bytes is `DATA_SIZE`.
+- **Data Type/Size Streamed**: The data streamed is a JSON object that includes the price and timestamp. The size of this data in bytes is 97.
 
 - **Hardware Details**:
     - **CPU**: Apple M1 Pro
@@ -47,7 +47,7 @@ The tests were conducted under the following environment:
 
 ## Test Results
 
-### High Load Test
+### High Load Test For Tornado Application
 - With 10 clients:
     - Mean response time: 0.2627 seconds
     - Median response time: 0.2628 seconds
